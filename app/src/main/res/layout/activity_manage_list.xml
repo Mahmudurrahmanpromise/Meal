@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/manage_list"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <Button
+        android:id="@+id/meal_list_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/blackbutton"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text=" Meal List "
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/bazaar_list_button"
+        android:layout_width="match_parent"
+        android:background="@drawable/blackbutton"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Bazaar List"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"/>
+    <Button
+        android:id="@+id/cost_list_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text=" Cost List "
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"/>
+    <Button
+        android:id="@+id/member_info_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blackbutton"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Member Info"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"/>
+    <Button
+        android:id="@+id/messenger_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/blackbutton"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text=" Messenger "
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"/>
+    <Button
+        android:id="@+id/leave_mess_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Leave  Mess"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

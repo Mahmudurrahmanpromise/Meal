@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context="com.example.promise.meal.Home.RegistrationActivity">
+
+
+
+
+    <EditText
+        android:id="@+id/all_user_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:drawableLeft="@drawable/ic_action_email"
+        android:inputType="textPersonName"
+        android:hint="Email"
+
+        android:layout_marginTop="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/all_user_email"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="121dp"
+        android:text="Registration"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/blackbutton"
+        android:textColor="@color/colorAccent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="103dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:drawableLeft="@drawable/ic_action_mobile"
+        android:inputType="textPersonName"
+        android:hint="Mobile Number"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/pass"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText"
+        android:layout_below="@+id/editText"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:drawableLeft="@drawable/ic_action_address"
+        android:inputType="textPersonName"
+        android:hint="Address" />
+
+
+</RelativeLayout>

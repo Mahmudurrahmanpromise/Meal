@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context="com.example.promise.meal.CreateProfile.UserProfileActivity">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView"/>
+
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:hint="Email"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:gravity="bottom"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:hint="Phone Number"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:gravity="bottom"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/etName"
+        android:layout_alignStart="@+id/etName" />
+
+
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:gravity="bottom"
+        android:hint="Full Name"
+        android:textAlignment="center"
+        android:layout_below="@+id/etEmail"
+        android:layout_alignStart="@+id/etEmail" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:background="@drawable/blackbutton"
+        android:textColor="#FFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_below="@+id/etPhone"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_marginTop="51dp" />
+
+
+</RelativeLayout>

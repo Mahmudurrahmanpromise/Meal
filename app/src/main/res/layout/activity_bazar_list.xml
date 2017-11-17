@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="200"
+    tools:context="com.example.promise.meal.BazarList.BazarList">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="100"
+        android:id="@+id/listview"
+        >
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Total cost: "
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="left"
+            android:gravity="right"
+            android:textSize="20dp"
+            android:layout_weight="50"
+            />
+
+        <TextView
+            android:id="@+id/costvalue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="50"
+            android:gravity="left"
+            android:hint="@string/costvalue"
+            android:textSize="20dp"
+
+            />
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/date_of"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click here for Select Date"
+        android:background="@drawable/blackbutton"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:id="@+id/all_user_name"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/cost"
+        android:id="@+id/cost"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/addvalue"
+        android:id="@+id/submit"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#FFFF"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:background="@drawable/blackbutton"
+
+    />
+
+
+
+
+
+
+    </LinearLayout>
+
+

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "149597617853",
+    "firebase_url": "https://meal-1240e.firebaseio.com",
+    "project_id": "meal-1240e",
+    "storage_bucket": "meal-1240e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149597617853:android:07a2bec673799524",
+        "android_client_info": {
+          "package_name": "com.example.promise.meal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149597617853-mdajubh3lm4us2mn1586442qi6fesvoi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.promise.meal",
+            "certificate_hash": "572df2817956a2e6b1bdc2e3162c19ff6290c8d4"
+          }
+        },
+        {
+          "client_id": "149597617853-126o7nsg6csu5j87ig97ifg3qgblfpbp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCX9hozk7MyxgfkbPO2be3WVCjAgrwFQYc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149597617853-126o7nsg6csu5j87ig97ifg3qgblfpbp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

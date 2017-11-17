@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    tools:context="com.example.promise.meal.BazarList.AddValueInBazarList">
+
+    <TextView
+        android:id="@+id/date_of"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click here for Select Date"
+        android:background="@drawable/blackbutton"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:id="@+id/all_user_name"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/cost"
+        android:id="@+id/cost"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/submit"
+        android:id="@+id/submit"
+        android:background="@drawable/blackbutton"
+        android:textStyle="bold"
+        android:textColor="#faf8f8"
+        android:layout_marginTop="10dp"
+        />
+
+
+
+</LinearLayout>
